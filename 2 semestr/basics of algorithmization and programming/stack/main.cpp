@@ -1,8 +1,6 @@
 #include <stdlib.h>
 #include <iostream>
 
-// 10. Написать программу вычисления арифметического выражения с помощью стека.
-
 struct Node {
     char info;
     struct Node *next;
