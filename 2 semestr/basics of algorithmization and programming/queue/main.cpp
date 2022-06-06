@@ -27,6 +27,8 @@ void createHospital(hospital **hospitalList);
 void statisticHospital(hospital *hospitalList);
 void createSick(sickPerson **sickList, hospital **hospitalList);
 void statisticSick(sickPerson *sickList);
+
+// Функуция удаления больных неисправна
 void deleteSick(sickPerson **sickList, hospital *hospitalList);
 int closestHospital(hospital *hospitalList);
 int allocation(hospital *hospitalList, sickPerson *sickList);
